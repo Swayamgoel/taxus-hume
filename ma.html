@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Accounting</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/T-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Taxus Hume</div>
+        <button class="toggle-btn">&#9776;</button>
+        <ul class="nav-links">
+            <button class="close-btn">&larr;</button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-toggle">
+                <a href="#">Services &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="bookkeeping.html">Book Keeping</a></li>
+                    <li><a href="bpa.html">Business Planing and Advice</a></li>
+                    <li><a href="css.html">Corporate Secretarial Services</a></li>
+                    <li><a href="ma.html">Management Accounting</a></li>
+                    <li><a href="taxation.html">Taxation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-toggle">
+                <a href="#">Area We Serve &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="Berwick.html">Berwick</a></li>
+                    <li><a href="clyde.html">Clyde</a></li>
+                    <li><a href="Cranbourne.html">Cranbourne</a></li>
+                    <li><a href="Pakenham.html">Pakenham</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+   <button class="btn"><a href="contact.html">Get started free</a></button>
+    </nav>
+
+    <script>
+        document.querySelector(".toggle-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+            this.classList.toggle("active");
+        });
+        document.querySelector(".close-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.remove("active");
+            document.querySelector(".toggle-btn").classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-toggle > a").forEach(item => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+    <br><br><br><br><br><br>
+    <div class="b-header">Management Accounting</div>
+    <div class="breadcrumb">Home » Management Accounting</div>
+    
+  <div class="b-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px;">
+  <div class="b-text-content" style="flex: 1 1 60%;">
+    <h1>Get the Best Management Accounting Services in Narre Warren and Melbourne</h1>
+    <p>Looking to make smarter financial decisions and drive your business forward? At <strong>Taxus Hume</strong>, we offer comprehensive <strong>management accounting services</strong> tailored to meet the needs of both small and large businesses across Narre Warren and Melbourne. Our integrated approach is designed to add value at every stage of your business journey.</p>
+
+    <h2>Our Management Accounting Services Include:</h2>
+    <ul>
+      <li>Budgeting and cost monitoring</li>
+      <li>Preparation of management accounts and financial reports</li>
+      <li>Business plan development and proposal preparation</li>
+      <li>Cash flow analysis and forecasting</li>
+      <li>Variance and pricing analysis</li>
+      <li>Competitor performance comparison</li>
+      <li>Break-even and project costing</li>
+    </ul>
+
+    <p>Whether you need support managing day-to-day financial tasks or strategic planning to boost your profitability, our certified management accountants are here to help.</p>
+
+    <h2>Why Choose Taxus Hume for Management Accounting?</h2>
+    <p>At Taxus Hume, our team of skilled accountants doesn't just crunch numbers — we transform financial data into strategic insights. By aligning your business goals with proven financial strategies, we help you make confident decisions and stay ahead of the competition.</p>
+
+    <h3>✔ Expertise Across the Board</h3>
+    <p>Our team is proficient in all core areas of management accounting, including monthly reporting, costing, budgeting, and forecasting.</p>
+
+    <h3>✔ Strategic Decision-Making</h3>
+    <p>We help you identify underperforming areas and deliver actionable insights to improve performance and profitability.</p>
+
+    <h3>✔ Full-Service Support</h3>
+    <p>From report generation to attending review meetings, our end-to-end accounting solutions are designed to ease your workload and maximise results.</p>
+
+    <h3>✔ Proven Track Record</h3>
+    <p>As one of the most trusted accounting firms in Narre Warren and Melbourne, we are known for delivering results that drive business growth.</p>
+
+    <h2>What You Can Expect From Our Experts</h2>
+    <ul>
+      <li><strong>Monthly Financial Reports</strong> – Clear and accurate P&amp;L, balance sheets, budget reviews, and cash flow statements.</li>
+      <li><strong>Review Meetings</strong> – Regular consultations to discuss insights, highlight challenges, and recommend solutions.</li>
+      <li><strong>Budgeting &amp; Forecasting</strong> – Data-driven projections to prepare your business for the future.</li>
+      <li><strong>Costing &amp; Analysis</strong> – Get precise break-even points, product costing, and investment appraisals.</li>
+    </ul>
+
+    <h2>Additional Services We Offer:</h2>
+    <ul>
+      <li>Setting up internal financial and operational control systems</li>
+      <li>Capital budgeting and performance analysis</li>
+      <li>Training and recruitment of accounting staff</li>
+      <li>Liaising with external accountants and auditors</li>
+    </ul>
+
+    <h2>Partner with Taxus Hume for Smarter Financial Planning</h2>
+    <p>Let us take the daily financial pressure off your shoulders. Our tailored management accounting solutions give you the clarity and control needed to make informed business decisions.</p>
+    <p><strong>📞 Call us today</strong> to learn how we can help transform your financial operations.</p>
+  </div>
+
+  <div class="b-image-content" style="flex: 1 1 35%;">
+    <img src="images/finances-saving-economy-concept-female-accountant-banker-use-calculator.jpg" alt="Management Accounting Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+  </div>
+</div>
+
+    
+    <br>
+    <footer class="footer">
+        <div>
+            <h2 style="color: #eef75f;">Taxus Hume</h2>
+            <p>Welcome to Taxus Hume a division of TBC Accounting Services Pty Ltd! We appreciate your patience while we build and finish our new website.</p>
+            <!-- <h3>GET SOCIAL</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+        <div>
+            <h3>CONTACT DETAILS</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 highstreet</p><br>
+            <p><i class="fas fa-envelope" href="mailto:abc@example.com"></i> abc@example.com</p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM to 4PM</p>
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <a href="taxation.html"><i class="fa-solid fa-angle-right"></i> Taxation</a>
+            <a href="ma.html"><i class="fa-solid fa-angle-right"></i> Management Accounting</a>
+            <a href="css.html"><i class="fa-solid fa-angle-right"></i> Corporate Secretarial Services</a>
+            <a href="bpa.html"><i class="fa-solid fa-angle-right"></i> Business Planning And Advice</a>
+            <a href="bookkeeping.html"><i class="fa-solid fa-angle-right"></i> Bookkeeping</a>
+        </div>
+        <div class="map">
+            <h3>OUR LOCATION</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14011381.487906551!2d128.74315989403502!3d-30.977529665913433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ad64e8b18b15f1b%3A0x652aa278ba66847e!2s31%20Trafalgar%20Rd%2C%20Epping%20VIC%203076%2C%20Australia!3m2!1d-37.639607399999996!2d145.0083703!5e0!3m2!1sen!2sin!4v1753203490929!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <div class="copyright">Copyright - 2025 | All Rights Reserved</div>
+    <div class="floating-icons">
+        <a href="mailto:abc@example.com" class="email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:123456789"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+</body>
+
+</html>

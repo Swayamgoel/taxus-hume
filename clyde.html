@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clyde</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/T-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Taxus Hume</div>
+        <button class="toggle-btn">&#9776;</button>
+        <ul class="nav-links">
+            <button class="close-btn">&larr;</button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-toggle">
+                <a href="#">Services &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="bookkeeping.html">Book Keeping</a></li>
+                    <li><a href="bpa.html">Business Planing and Advice</a></li>
+                    <li><a href="css.html">Corporate Secretarial Services</a></li>
+                    <li><a href="ma.html">Management Accounting</a></li>
+                    <li><a href="taxation.html">Taxation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-toggle">
+                <a href="#">Area We Serve &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="Berwick.html">Berwick</a></li>
+                    <li><a href="clyde.html">Clyde</a></li>
+                    <li><a href="Cranbourne.html">Cranbourne</a></li>
+                    <li><a href="Pakenham.html">Pakenham</a></li>                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+<button class="btn"><a href="contact.html">Get started free</a></button>
+    </nav>
+
+    <script>
+        document.querySelector(".toggle-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+            this.classList.toggle("active");
+        });
+        document.querySelector(".close-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.remove("active");
+            document.querySelector(".toggle-btn").classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-toggle > a").forEach(item => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+    <br><br><br><br><br><br>
+  <div class="b-header">Clyde</div>
+<div class="breadcrumb">Home » Clyde</div>
+
+<div class="b-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div class="b-text-content" style="flex: 1 1 60%;">
+    <h2>Professional Accounting and Bookkeeping Services in Clyde</h2>
+    <p><strong>Taxus Hume</strong> has been providing professional accounting and taxation solutions for many years. We specialise in a wide range of accounting services that can help your business manage its financial growth. Being amongst the top players in the list of best accounting companies in Clyde allows our clients to keep coming back to us.</p>
+
+    <p>With years of experience in this field, we have established ourselves as one of the most preferred names for services like bookkeeping, business restructuring, advisory services, and a lot more. We are backed by some of the most talented chartered accountants and company secretaries who believe in providing effective solutions to ensure the growth of your business.</p>
+
+    <h3>Our Accounting Services Include:</h3>
+    <ul>
+      <li>Virtual accounting & virtual CFO services</li>
+      <li>Accounting software implementation</li>
+      <li>Cloud-based accounting</li>
+      <li>General ledger reconstruction</li>
+      <li>Tax services</li>
+      <li>Payroll services</li>
+    </ul>
+
+    <p>Accounting services offered by us are designed to help young entrepreneurs, start-ups, and businesses of all sizes with great ambitions to achieve their business objectives. From professional bookkeeping services to managing all your financial data, <strong>Taxus Hume</strong> takes care of everything to help businesses move towards their exponential growth.</p>
+
+    <h3>Advantages of Outsourcing Professional Accountants</h3>
+    <p><strong>Taxus Hume</strong> is backed by a group of experts who are well-versed in their respective fields. They are well trained to take up any complex project. From filing your tax returns on time to ensuring that each of the financial transactions is recorded accurately in the books, our experts can single-handedly solve all your problems. Here are some reasons you should choose us:</p>
+
+    <ul>
+      <li><strong>Effective services:</strong> We pride ourselves to be able to provide top-notch services at the price we quote.</li>
+      <li><strong>Qualified Experts:</strong> We have only employed staff who are well-trained to perform the given duties and get the best result out of it.</li>
+      <li><strong>Handle All Your Books:</strong> You can focus on your core business while we handle all your financial and compliance matters.</li>
+      <li><strong>Efficient Management and Varied Skill Sets:</strong> We keep all your business payments, profits, expenses, and financial development on track, which avoids the chances of penalties.</li>
+      <li><strong>Years of Experience:</strong> Prevents fraud and helps access authentic data for future decisions of the business.</li>
+    </ul>
+
+    <h3>Why Choose Taxus Hume?</h3>
+    <ul>
+      <li><strong>Expert Assistance:</strong> We have a team of experts working under our belts who can understand your business and identify proper strategic actions, which can be implemented to eliminate inefficiencies and impractical methods or operations.</li>
+      <li><strong>Superior Planning:</strong> By analysing your business, we chalk out an effective plan that can be achieved within a particular deadline.</li>
+      <li><strong>Accounting System Management:</strong> Manage all the accounting needs with full accuracy.</li>
+      <li><strong>Achieve Business Goals:</strong> Our goal at <strong>Taxus Hume</strong> is to help our clients achieve their business goals.</li>
+      <li><strong>Suggest Effective Do’s and Don’ts:</strong> We suggest what best suits your business complexities after analysing your business structure and financials.</li>
+    </ul>
+
+    <p>By collaborating with <strong>Taxus Hume</strong> for accounting and taxation services in Clyde, you get the highest quality solutions that are second to none. With immense knowledge and skills, we will provide you with a suite of services that can pave the right strategic direction you need as you navigate your business towards its growth. Call us today and talk to our experts!</p>
+  </div>
+
+  <div class="b-image-content" style="flex: 1 1 35%; align-self: flex-start;">
+    <img src="images/hand-businesswoman-point-goal-chart.jpg" alt="Accounting and Bookkeeping Image" style="width: 100%; height: auto; border-radius: 8px;">
+  </div>
+</div>
+
+    
+
+    <br>
+   <footer class="footer">
+        <div>
+            <h2 style="color: #eef75f;">Taxus Hume</h2>
+            <p>Welcome to Taxus Hume a division of TBC Accounting Services Pty Ltd! We appreciate your patience while we build and finish our new website.</p>
+            <!-- <h3>GET SOCIAL</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+        <div>
+            <h3>CONTACT DETAILS</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 highstreet</p><br>
+            <p><i class="fas fa-envelope" href="mailto:abc@example.com"></i> abc@example.com</p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM to 4PM</p>
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <a href="taxation.html"><i class="fa-solid fa-angle-right"></i> Taxation</a>
+            <a href="ma.html"><i class="fa-solid fa-angle-right"></i> Management Accounting</a>
+            <a href="css.html"><i class="fa-solid fa-angle-right"></i> Corporate Secretarial Services</a>
+            <a href="bpa.html"><i class="fa-solid fa-angle-right"></i> Business Planning And Advice</a>
+            <a href="bookkeeping.html"><i class="fa-solid fa-angle-right"></i> Bookkeeping</a>
+        </div>
+        <div class="map">
+            <h3>OUR LOCATION</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14011381.487906551!2d128.74315989403502!3d-30.977529665913433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ad64e8b18b15f1b%3A0x652aa278ba66847e!2s31%20Trafalgar%20Rd%2C%20Epping%20VIC%203076%2C%20Australia!3m2!1d-37.639607399999996!2d145.0083703!5e0!3m2!1sen!2sin!4v1753203490929!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <div class="copyright">Copyright - 2025 | All Rights Reserved</div>
+    <div class="floating-icons">
+        <a href="mailto:abc@example.com" class="email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:123456789"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+</body>
+
+</html>

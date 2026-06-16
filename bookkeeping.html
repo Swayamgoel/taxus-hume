@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookkeeping</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/T-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Taxus Hume</div>
+        <button class="toggle-btn">&#9776;</button>
+        <ul class="nav-links">
+            <button class="close-btn">&larr;</button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-toggle">
+                <a href="#">Services &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="bookkeeping.html">Book Keeping</a></li>
+                    <li><a href="bpa.html">Business Planing and Advice</a></li>
+                    <li><a href="css.html">Corporate Secretarial Services</a></li>
+                    <li><a href="ma.html">Management Accounting</a></li>
+                    <li><a href="taxation.html">Taxation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-toggle">
+                <a href="#">Area We Serve &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="Berwick.html">Berwick</a></li>
+                    <li><a href="clyde.html">Clyde</a></li>
+                    <li><a href="Cranbourne.html">Cranbourne</a></li>
+                    <li><a href="Pakenham.html">Pakenham</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+<button class="btn"><a href="contact.html">Get started free</a></button>
+    </nav>
+
+    <script>
+        document.querySelector(".toggle-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+            this.classList.toggle("active");
+        });
+        document.querySelector(".close-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.remove("active");
+            document.querySelector(".toggle-btn").classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-toggle > a").forEach(item => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+    <br><br><br><br><br><br>
+   <div class="b-header">Bookkeeping</div>
+<div class="breadcrumb">Home » Bookkeeping</div>
+
+<div class="b-container">
+  <div class="b-text-content">
+    <h2>Reliable Bookkeeping Services in Narre Warren & Melbourne</h2>
+    <p>Bookkeeping requires professionals who can analyse financial documentation, provide advice in improving profitability, and forecast the costs and revenues to help a business analyse its financial position. <strong>Taxus Hume</strong> is one such company in Melbourne that provides reliable bookkeeping services right from set-up, support, maintenance, and consultancy with accounting and taxation.</p>
+
+    <p>We are backed by a team of professional bookkeepers who do everything to record transactions for the preparations of financial statements. Our qualified team partners with you to quickly adapt to the software and methods used by you to ensure quick turnaround and quality standards.</p>
+
+    <h3>Bookkeeping Services in Narre Warren & Melbourne</h3>
+    <p>Whether you have just started your business or have an established business already, keeping track of your financial services is the most important task. With our bookkeeping services, you will get to enjoy a simplified accounting process and easy account management.</p>
+
+    <h3>The Importance of Having a Professional Bookkeeper in Narre Warren</h3>
+    <p>Bookkeeping is required to maintain accurate records of all the financial transactions that happen to occur in your business. It is important to hire a professional bookkeeping company that can assure you that all the financial data of your company is reviewed properly in the books of accounts.</p>
+
+    <p>With a growing business, it becomes increasingly difficult to manage your books of accounts. In such scenarios, rely on professionals like us to make this process easy. We analyse every single transaction recorded in the financial statement of your organisation. A professional bookkeeping service provider like us will look into the company’s financials by maintaining accurate records on:</p>
+    <ul>
+      <li>Payroll calculations and payslips preparation</li>
+      <li>Recording paid and unpaid leave</li>
+      <li>Superannuation calculations</li>
+      <li>Payroll tax calculations</li>
+      <li>End of year group certificates</li>
+    </ul>
+    <p>As a professional bookkeeping company in Melbourne, <strong>Taxus Hume</strong> provides bookkeeping services that can help you in controlling your organisation’s financial accounts. Our bookkeeping process helps in reflecting the income and expenditure of every single record of payment and expenditure.</p>
+
+    <h3>Your Trusted Bookkeeping Services in Narre Warren & Melbourne</h3>
+    <p><strong>Taxus Hume</strong> offers unmatched bookkeeping services in Narre Warren and Melbourne. No matter how complex your needs are, through our expertise and knowledge, we can address them. We have a team of qualified and certified accountants working under our belt who stand ready to serve every client’s need. With a wealth of experience in accounting, taxation, and bookkeeping, we will analyse everything to record your organisation’s financial data with guaranteed accuracy and timely results.</p>
+
+    <p>We have adapted some of the most popular advanced accounting software and financial accounting packages to ensure that your accounting and bookkeeping system is always up to date.</p>
+
+    <h3>Why Taxus Hume?</h3>
+    <p><strong>Taxus Hume</strong> is amongst the most reputed bookkeeping service providers in Melbourne. We are highly skilled in managing your accounting ledgers, books, sales ledgers of clients, expense and income reporting, accounts receivables and payables, ageing analysis, cash flow analysis, fund flow analysis, trial balance, balance sheet, profit and loss statements, and more. We offer a lot of advantages if you opt for our bookkeeping services.</p>
+
+    <p>If you are searching for a reliable bookkeeping agency in Melbourne, reach out to us and let us handle all your worries. Call our experts for your accounting and bookkeeping needs so you can focus on the core tasks of your establishment.</p>
+  </div>
+
+  <div class="b-image-content">
+    <img src="images/hand-businesswoman-point-goal-chart.jpg" alt="Bookkeeping Image">
+  </div>
+</div>
+<br>
+
+    <br>
+    <footer class="footer">
+        <div>
+            <h2 style="color: #eef75f;">Taxus Hume</h2>
+            <p>Welcome to Taxus Hume a division of TBC Accounting Services Pty Ltd! We appreciate your patience while we build and finish our new website.</p>
+            <!-- <h3>GET SOCIAL</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+        <div>
+            <h3>CONTACT DETAILS</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 highstreet</p><br>
+            <p><i class="fas fa-envelope" href="mailto:abc@example.com"></i> abc@example.com</p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM to 4PM</p>
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <a href="taxation.html"><i class="fa-solid fa-angle-right"></i> Taxation</a>
+            <a href="ma.html"><i class="fa-solid fa-angle-right"></i> Management Accounting</a>
+            <a href="css.html"><i class="fa-solid fa-angle-right"></i> Corporate Secretarial Services</a>
+            <a href="bpa.html"><i class="fa-solid fa-angle-right"></i> Business Planning And Advice</a>
+            <a href="bookkeeping.html"><i class="fa-solid fa-angle-right"></i> Bookkeeping</a>
+        </div>
+        <div class="map">
+            <h3>OUR LOCATION</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14011381.487906551!2d128.74315989403502!3d-30.977529665913433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ad64e8b18b15f1b%3A0x652aa278ba66847e!2s31%20Trafalgar%20Rd%2C%20Epping%20VIC%203076%2C%20Australia!3m2!1d-37.639607399999996!2d145.0083703!5e0!3m2!1sen!2sin!4v1753203490929!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <div class="copyright">Copyright - 2025 | All Rights Reserved</div>
+    <div class="floating-icons">
+        <a href="mailto:abc@example.com" class="email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:123456789"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+</body>
+
+</html>

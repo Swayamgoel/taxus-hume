@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cranbourne</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/T-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Taxus Hume</div>
+        <button class="toggle-btn">&#9776;</button>
+        <ul class="nav-links">
+            <button class="close-btn">&larr;</button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-toggle">
+                <a href="#">Services &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="bookkeeping.html">Book Keeping</a></li>
+                    <li><a href="bpa.html">Business Planing and Advice</a></li>
+                    <li><a href="css.html">Corporate Secretarial Services</a></li>
+                    <li><a href="ma.html">Management Accounting</a></li>
+                    <li><a href="taxation.html">Taxation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-toggle">
+                <a href="#">Area We Serve &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="Berwick.html">Berwick</a></li>
+                    <li><a href="clyde.html">Clyde</a></li>
+                    <li><a href="Cranbourne.html">Cranbourne</a></li>
+                    <li><a href="Pakenham.html">Pakenham</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+<button class="btn"><a href="contact.html">Get started free</a></button>s
+    </nav>
+
+    <script>
+        document.querySelector(".toggle-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+            this.classList.toggle("active");
+        });
+        document.querySelector(".close-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.remove("active");
+            document.querySelector(".toggle-btn").classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-toggle > a").forEach(item => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+    <br><br><br><br><br><br>
+   <div class="b-header">Cranbourne</div>
+<div class="breadcrumb">Home » Cranbourne</div>
+
+<div class="b-container" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+  <div class="b-text-content" style="flex: 1 1 60%;">
+    <h2>An Extensive Range of Tax and Accounting Services in Cranbourne for Your Business</h2>
+    <p>
+      Taxus Hume uses the most updated and effective services designed to expedite project delivery times and ensure accuracy across all our services, including traditional accounting and bookkeeping functions as well as other services offered by us.
+    </p>
+    <p>
+      Undoubtedly, you could have a profitable business if you had time to just focus on the core business instead of stressing about handling a range of administrative tasks. Taxus Hume offers a wide range of accounting and taxation services in Cranbourne that can help in better management of your accounting, taxation, and bookkeeping functions. We have a team of highly skilled people leveraging the expertise to help you with robust accounting and bookkeeping solutions.
+    </p>
+
+    <h3>Hire the Most Reputed Accountants in Cranbourne</h3>
+    <p>
+      To be the best accounting and taxation firm in Cranbourne, we provide services that can cover all aspects of accountancy and try to comprehend your business needs. Our professional approach helps us to easily meet all your requirements and achieve your business goals. Hiring professionals like us can benefit your business in a lot of ways like:
+    </p>
+
+    <ul>
+      <li><strong>Saves Time and Money:</strong> According to research, it is found that a company can save up to 40% on their operational cost by outsourcing to professional accountants. If you hire professionals like us, you will have access to the most updated, secure, technological platforms used by larger companies without needing to invest heavily in them.</li>
+      <li><strong>Pay for What You Need:</strong> When you hire us, you decide the level of support and services you require from our end. You can hire us as full-time accountants or on a monthly or project basis. Depending on your requirements, we can provide you with a reasonable quote.</li>
+      <li><strong>Scale Quickly:</strong> We offer a wide range of services along with trained staff to assist you at any time. We are well updated with any changes in accounting and bookkeeping laws, so we offer solutions that can match the updated laws.</li>
+      <li><strong>Ensure Business Continuity:</strong> Businesses sometimes lack the time to develop business continuity plans because they are too stressed about the administrative and financial issues that may come in between their business growth. At Taxus Hume, we ensure that all your financial and administrative tasks are well taken care of so that you can focus on your core business issues.</li>
+    </ul>
+
+    <h3>Why Choose Taxus Hume?</h3>
+    <ul>
+      <li>Taxus Hume is there with you at every stage to help you achieve your business goals. Our expert team partners with you to put all your financial and taxation requirements in place to ensure your business thrives. Here are some reasons to choose us:</li>
+      <li>Extensive years of experience tied with a team of highly qualified, experienced, & reliable accountants to provide professional services.</li>
+      <li>Expert team to handle all your various financial requirements.</li>
+      <li>Adopt best accounting practices across geographies & industries.</li>
+      <li>Well trained to manage businesses of diverse nature & sizes in different sectors.</li>
+      <li>Offer tailor-made solutions based on organisation requirements.</li>
+    </ul>
+
+    <p>
+      If you have been on a hunt to find the right accounting and taxation firm in Cranbourne that can provide excellent accounting services, you have landed at the right place. Let us help you with our unparalleled and customised solutions. Call us today and talk to our experts!
+    </p>
+  </div>
+
+  <div class="b-image-content" style="flex: 1 1 35%; align-self: flex-start;">
+    <img src="images/calculator-magnifying-glass-table.jpg" alt="Accounting and Tax Services Image" style="max-width: 100%; height: auto;">
+  </div>
+</div>
+
+    
+    <br>
+    <footer class="footer">
+        <div>
+            <h2 style="color: #eef75f;">Taxus Hume</h2>
+            <p>Welcome to Taxus Hume a division of TBC Accounting Services Pty Ltd! We appreciate your patience while we build and finish our new website.</p>
+            <!-- <h3>GET SOCIAL</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+        <div>
+            <h3>CONTACT DETAILS</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 highstreet</p><br>
+            <p><i class="fas fa-envelope" href="mailto:abc@example.com"></i> abc@example.com</p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM to 4PM</p>
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <a href="taxation.html"><i class="fa-solid fa-angle-right"></i> Taxation</a>
+            <a href="ma.html"><i class="fa-solid fa-angle-right"></i> Management Accounting</a>
+            <a href="css.html"><i class="fa-solid fa-angle-right"></i> Corporate Secretarial Services</a>
+            <a href="bpa.html"><i class="fa-solid fa-angle-right"></i> Business Planning And Advice</a>
+            <a href="bookkeeping.html"><i class="fa-solid fa-angle-right"></i> Bookkeeping</a>
+        </div>
+        <div class="map">
+            <h3>OUR LOCATION</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14011381.487906551!2d128.74315989403502!3d-30.977529665913433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ad64e8b18b15f1b%3A0x652aa278ba66847e!2s31%20Trafalgar%20Rd%2C%20Epping%20VIC%203076%2C%20Australia!3m2!1d-37.639607399999996!2d145.0083703!5e0!3m2!1sen!2sin!4v1753203490929!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <div class="copyright">Copyright - 2025 | All Rights Reserved</div>
+    <div class="floating-icons">
+        <a href="mailto:abc@example.com" class="email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:123456789"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+</body>
+
+</html>

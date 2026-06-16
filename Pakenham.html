@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakenham</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/T-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Taxus Hume</div>
+        <button class="toggle-btn">&#9776;</button>
+        <ul class="nav-links">
+            <button class="close-btn">&larr;</button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-toggle">
+                <a href="#">Services &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="bookkeeping.html">Book Keeping</a></li>
+                    <li><a href="bpa.html">Business Planing and Advice</a></li>
+                    <li><a href="css.html">Corporate Secretarial Services</a></li>
+                    <li><a href="ma.html">Management Accounting</a></li>
+                    <li><a href="taxation.html">Taxation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-toggle">
+                <a href="#">Area We Serve &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="Berwick.html">Berwick</a></li>
+                    <li><a href="clyde.html">Clyde</a></li>
+                    <li><a href="Cranbourne.html">Cranbourne</a></li>
+                    <li><a href="Pakenham.html">Pakenham</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="btn"><a href="contact.html">Get started free</a></button>
+    </nav>
+
+    <script>
+        document.querySelector(".toggle-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+            this.classList.toggle("active");
+        });
+        document.querySelector(".close-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.remove("active");
+            document.querySelector(".toggle-btn").classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-toggle > a").forEach(item => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+    <br><br><br><br><br><br>
+<div class="b-header">Pakenham</div>
+<div class="breadcrumb">Home » Pakenham</div>
+
+<section class="b-container flex-wrap">
+  <div class="b-content" style="flex: 1;">
+    <h2>What Makes Our Accounting Services Exceptional in Pakenham?</h2>
+    <p><strong>Taxus Hume</strong> is a professional taxation and accounting firm in Pakenham. As a fast-growing professionally managed accounting firm, we have been providing professional solutions for several services like:</p>
+    <ul>
+      <li>Accounting</li>
+      <li>Taxation</li>
+      <li>Bookkeeping</li>
+      <li>Business Restructuring</li>
+    </ul>
+    <p>To provide unmatched solutions, we are associated with some of the most qualified and experienced chartered accountants, company secretaries, advocates, and tax consultants. Our goal at <strong>Taxus Hume</strong> is to provide our clients with excellent financial management services that can help them accelerate their business growth. We assist them in making well-informed decisions for the smooth running of their business.</p>
+    <p>We pride ourselves on our quality and knowledgeable staff who have a great understanding of any business, whether big or small.</p>
+
+    <h3>Benefits of Hiring Our Accounting Professionals in Pakenham</h3>
+    <ul>
+      <li>Professional accounting and taxation services with comprehensive accounting solutions that best fit your requirements.</li>
+      <li>Full-time services, which means we focus on your financial issues and give you more time to focus on your core business functions.</li>
+      <li>Taking care of all aspects of your business. From handling your accounts to managing financial data, we will take care of everything.</li>
+      <li>By hiring professionals, you can ensure that your business always stays at the top of the game. While you may not be aware of the laws, our experts are well versed with the laws, and they work in accordance to ensure your establishment stays in compliance with the law.</li>
+    </ul>
+
+    <h3>Hire Our Bookkeeping Professionals Today</h3>
+    <p><strong>Bookkeeping Services:</strong> Bookkeeping is indeed a daunting task that gives a lot of stress especially if you have other responsibilities. At <strong>Taxus Hume</strong>, we can help you take the stress off your shoulders. Our team of experts offers quality bookkeeping services in Pakenham to maintain your books of accounts and help you make informed financial decisions for your business.</p>
+
+    <p><strong>Business Restructuring:</strong> Along with our accounting services, we provide top-notch business restructuring services in Pakenham. We analyse all the aspects of business and offer strategic solutions and recommendations to help you achieve your objectives. From assessing the project synergies to assessing each transaction, <strong>Taxus Hume</strong> will help you with complete business restructuring services and guide you through your books.</p>
+
+    <p><strong>Business Advisory:</strong> With a team of professionals, we can help you with all possible tax planning and opportunities that can further improve your business performance. Our financial advisory solutions will help both small and big businesses keep control of their finances.</p>
+
+    <h3>Why Choose Taxus Hume?</h3>
+    <p>No matter if you have a big organisation or a small business, we can help you with any issue. We offer a full range of accounting services that can help your business stay on top of its game.</p>
+    <ul>
+      <li>Robust and efficient strategies</li>
+      <li>Complete assistance</li>
+      <li>Strategic planning</li>
+      <li>Cost-effective services</li>
+    </ul>
+    <p>At <strong>Taxus Hume</strong>, we offer a myriad of top-notch services like bookkeeping services, professional accounting, tax accounting, business advisory, and business restructuring services to help your business stay in compliance with the ever-changing laws. Call us today for more information.</p>
+  </div>
+
+  <div class="b-image-content" style="flex: 1; text-align: right;">
+    <img src="images/hand-businesswoman-point-goal-chart.jpg" alt="Accounting Services in Pakenham" style="max-width: 100%; height: auto;">
+  </div>
+</section>
+
+
+    <br>
+    <footer class="footer">
+        <div>
+            <h2 style="color: #eef75f;">Taxus Hume</h2>
+            <p>Welcome to Taxus Hume a division of TBC Accounting Services Pty Ltd! We appreciate your patience while we build and finish our new website.</p>
+            <!-- <h3>GET SOCIAL</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+        <div>
+            <h3>CONTACT DETAILS</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 highstreet</p><br>
+            <p><i class="fas fa-envelope" href="mailto:abc@example.com"></i> abc@example.com</p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM to 4PM</p>
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <a href="taxation.html"><i class="fa-solid fa-angle-right"></i> Taxation</a>
+            <a href="ma.html"><i class="fa-solid fa-angle-right"></i> Management Accounting</a>
+            <a href="css.html"><i class="fa-solid fa-angle-right"></i> Corporate Secretarial Services</a>
+            <a href="bpa.html"><i class="fa-solid fa-angle-right"></i> Business Planning And Advice</a>
+            <a href="bookkeeping.html"><i class="fa-solid fa-angle-right"></i> Bookkeeping</a>
+        </div>
+        <div class="map">
+            <h3>OUR LOCATION</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14011381.487906551!2d128.74315989403502!3d-30.977529665913433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ad64e8b18b15f1b%3A0x652aa278ba66847e!2s31%20Trafalgar%20Rd%2C%20Epping%20VIC%203076%2C%20Australia!3m2!1d-37.639607399999996!2d145.0083703!5e0!3m2!1sen!2sin!4v1753203490929!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <div class="copyright">Copyright - 2025 | All Rights Reserved</div>
+    <div class="floating-icons">
+        <a href="mailto:abc@example.com" class="email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:123456789"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+</body>
+
+</html>

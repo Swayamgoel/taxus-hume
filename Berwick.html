@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berwick</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/T-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Taxus Hume</div>
+        <button class="toggle-btn">&#9776;</button>
+        <ul class="nav-links">
+            <button class="close-btn">&larr;</button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-toggle">
+                <a href="#">Services &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="bookkeeping.html">Book Keeping</a></li>
+                    <li><a href="bpa.html">Business Planing and Advice</a></li>
+                    <li><a href="css.html">Corporate Secretarial Services</a></li>
+                    <li><a href="ma.html">Management Accounting</a></li>
+                    <li><a href="taxation.html">Taxation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-toggle">
+                <a href="#">Area We Serve &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="Berwick.html">Berwick</a></li>
+                    <li><a href="clyde.html">Clyde</a></li>
+                    <li><a href="Cranbourne.html">Cranbourne</a></li>
+                    <li><a href="Pakenham.html">Pakenham</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+<button class="btn"><a href="contact.html">Get started free</a></button>
+    </nav>
+
+    <script>
+        document.querySelector(".toggle-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+            this.classList.toggle("active");
+        });
+        document.querySelector(".close-btn").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.remove("active");
+            document.querySelector(".toggle-btn").classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-toggle > a").forEach(item => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+    <br><br><br><br><br><br>
+<div class="b-header">Berwick</div>
+<div class="breadcrumb">Home » Berwick</div>
+
+<div class="b-container" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- Text Content on Left -->
+  <div class="b-text-content" style="flex: 1 1 60%;">
+    <h2>Registered Tax Agent & Accountant in Berwick</h2>
+    <p>Filing your tax returns and managing your financial issues can be a dreaded task. You need a professional tax agent like <strong>Taxus Hume</strong> to handle it for you. Considered amongst the most reputed tax agents in Berwick, we help you maximise your returns and get you that extra cash your savings account desperately needs. With such a tedious task at hand, we provide sound recommendations to make the process less daunting and can help you in avoiding costly mistakes down the track.</p>
+
+    <p>While there are ample reasons to employ taxation and accounting services from our professionals, our excellent client service is one of the main reasons. We are backed by some of the most talented and certified accountants specialising in skills that are geared to offer sound financial solutions and advice to businesses of all sizes. Our qualified and experienced staff is committed to add value and optimise the benefits accruing to clients.</p>
+
+    <p>At <strong>Taxus Hume</strong>, our focus is to provide businesses with real-world solutions to overcome their complex business issues through:</p>
+    <ul>
+      <li>Examining financial statements</li>
+      <li>Creating budget plans</li>
+      <li>Organising financial records</li>
+      <li>Computing taxes</li>
+      <li>Inspecting accounting systems</li>
+      <li>Communicating with clients</li>
+    </ul>
+
+    <h3>Why Do You Need a Business Advisor for Your Company in Berwick?</h3>
+    <p>To ensure you do not have to deal with problems that might stop your business from growing, hiring a reputed business advisor who helps you pick the right fit for your business is a must. Here are few reasons you need a business advisor to run your business smoothly:</p>
+    <ul>
+      <li>Helps improve business value.</li>
+      <li>Understands your industry thoroughly.</li>
+      <li>Has previous experience with businesses of all sizes.</li>
+      <li>Is equipped with wealth of experience to tackle any issue.</li>
+      <li>Holds all the necessary qualifications and knowledge to deal with the most complex issues.</li>
+    </ul>
+
+    <p><strong>Taxus Hume</strong> is equipped with the required skills and knowledge that can help your business improve its performance in no time. We have built a name as the most preferred business advisors in Berwick through our professional services. We can also help you in:</p>
+
+    <ul>
+      <li><strong>Business Restructuring:</strong> <strong>Taxus Hume</strong> is an independent business restructuring company in Berwick helping businesses organise their company portfolio to reach a higher level of performance.</li>
+      <li><strong>Bookkeeping Services:</strong> <strong>Taxus Hume</strong> understands that the financial health of your business depends on how well you maintain your accounts and books. We offer bookkeeping services that ensure that all your business’ financial data is accurately recorded on a timely basis.</li>
+      <li><strong>Business Advisory:</strong> <strong>Taxus Hume</strong> provides business advisory services to help businesses identify their strengths and overcome their weaknesses to facilitate their growth. As your mentors and business coaches, we help you in providing full guidance and assistance in strategising, developing, and implementing projects that help you achieve maximum results.</li>
+    </ul>
+
+    <h3>Why Choose Taxus Hume?</h3>
+    <p>Simply put, we have the right combination of skills and knowledge to help businesses tackle their taxation and accounting problems. We offer a broad range of services that ensures that we can help you, no matter what your tax and accounting needs are.</p>
+
+    <ul>
+      <li>File your tax returns on time</li>
+      <li>Sort out all your accounts to help you save time</li>
+      <li>Years of experience to tackle any tax and account-related problem, as well as offering tax or accounting advice.</li>
+      <li>No hidden costs and flexible payment options</li>
+      <li>Free initial consultation</li>
+    </ul>
+
+    <p>Searching for the right business advisor in Berwick to help you make informed decisions? Call us and let us handle all your tax- and account-related issues.</p>
+  </div>
+
+  <!-- Image on Right -->
+  <div class="b-image-content" style="flex: 1 1 35%; max-width: 400px;">
+    <img src="images/hand-businesswoman-point-goal-chart.jpg" alt="Accounting and Tax Agent in Berwick" style="width: 100%; height: auto;">
+  </div>
+</div>
+
+
+
+
+
+    <br>
+    <footer class="footer">
+        <div>
+            <h2 style="color: #eef75f;">Taxus Hume</h2>
+            <p>Welcome to Taxus Hume a division of TBC Accounting Services Pty Ltd! We appreciate your patience while we build and finish our new website.</p>
+            <!-- <h3>GET SOCIAL</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+        <div>
+            <h3>CONTACT DETAILS</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 highstreet</p><br>
+            <p><i class="fas fa-envelope" href="mailto:abc@example.com"></i> abc@example.com</p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-phone" href="tel:123456789"> 123456789</i></p><br>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM to 4PM</p>
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <a href="taxation.html"><i class="fa-solid fa-angle-right"></i> Taxation</a>
+            <a href="ma.html"><i class="fa-solid fa-angle-right"></i> Management Accounting</a>
+            <a href="css.html"><i class="fa-solid fa-angle-right"></i> Corporate Secretarial Services</a>
+            <a href="bpa.html"><i class="fa-solid fa-angle-right"></i> Business Planning And Advice</a>
+            <a href="bookkeeping.html"><i class="fa-solid fa-angle-right"></i> Bookkeeping</a>
+        </div>
+        <div class="map">
+            <h3>OUR LOCATION</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14011381.487906551!2d128.74315989403502!3d-30.977529665913433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ad64e8b18b15f1b%3A0x652aa278ba66847e!2s31%20Trafalgar%20Rd%2C%20Epping%20VIC%203076%2C%20Australia!3m2!1d-37.639607399999996!2d145.0083703!5e0!3m2!1sen!2sin!4v1753203490929!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <div class="copyright">Copyright - 2025 | All Rights Reserved</div>
+    <div class="floating-icons">
+        <a href="mailto:abc@example.com" class="email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:123456789"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+</body>
+
+</html>
